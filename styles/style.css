@@ -1,7 +1,71 @@
+body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     background-color: #F7EFCB;
+     padding: 0;
+    }
+.header {
+     padding: 15px;
+     background-color: #85CA7A;
+     max-width: 100%;
+     color: #000;
+     letter-spacing: 0.13px;
+     font-size: 25px;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: auto;
+     
+} 
+.logo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      max-width: 200px;
+      flex-shrink: 0;
+
+    }
+h1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 4.8rem;
+      margin-right: auto;
+    } 
+    b{
+    color: hsl(43, 98%, 49%);
+   }
+   .nav {
+     width: 100%;
+     background-color: #85CA7A;
+     overflow: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+     align-items: end;
+   }
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color:#FFFF; /* Промени цвета според предпочитанията си */
+}
+
+   
+ 
 p  {
     display: flex;
     width: 546px;
-    padding-left: 20%
+    margin-left: 10%;
     color: #000;
     font-family: Inter;
     font-size: 22px;
@@ -10,62 +74,30 @@ p  {
     line-height: 25px; /* 113.636% */
     letter-spacing: 0.11px;
  }
- h1 {
+ h2 {
    display: flex;
    width: 546px;
-   margin-left: 20%;
+   margin-left: 25%;
  }
+ 
  .pic1   {
     height: 481px;
     width: 481px;
     display: flex;
     
 }
-     .navbar {
-     width: 100%;
-     background-color: #85CA7A;
-     overflow: auto;
-     
-   }
- 
-  
-   .navbar a {
-     float: left;
-     
-     padding: 12px;
-     color: black;
-     text-decoration: none;
-     font-size: 34px;
- 
-   }
- 
- 
-   .navbar a:hover {
-     background-color: lightgreen;
-   }
- 
- 
-   @media screen and (max-width: 500px) {
-     .navbar a {
-       float: none;
-       display: block;
-     }
-   }
-   .header {
-     padding: 10px;
-     
-     width: 805px;
-     color: #000;
- 
- 
- 
-     font-family: Inter;
-     font-size: 26px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 16px;
-     letter-spacing: 0.13px;
+    
+    
+    
+    .pic1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 65vw;
+      margin-bottom: 500px;
+      
     }
+    
     .site-footer {
          background-color: #85CA7A;
          margin-top: auto;
@@ -80,22 +112,3 @@ p  {
           line-height: 16px;
           letter-spacing: 0.1px;
     }
-    html, body {
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     margin: 0;
-     background-color: #F7EFCB;
-     padding: 0;
-    }
-    .image{
-     width: 481px;
-     height: 481px;
- 
-    }
-    .image2 {
-         width: 481px;
-         height: 481px;
- 
-    }
-    
