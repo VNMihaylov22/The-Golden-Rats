@@ -5,6 +5,7 @@ body {
      margin: 0;
      background-color: #F7EFCB;
      padding: 0;
+     overflow-x: hidden;
     }
 .header {
      padding: 15px;
@@ -13,11 +14,7 @@ body {
      color: #000;
      letter-spacing: 0.13px;
      font-size: 25px;
-     display: flex;
-     flex-wrap: nowrap;
-     flex-direction: row;
-     justify-content: space-between;
-     margin-bottom: auto;
+     height: 20vh
      
 } 
 .logo{
@@ -27,6 +24,7 @@ body {
       align-items: flex-start;
       max-width: 200px;
       flex-shrink: 0;
+      height: 5vw;
 
     }
 h1{
@@ -85,8 +83,7 @@ p  {
     width: 481px;
     display: flex;
     position: relative;
-    left: 1350px;
-    bottom: 50px;
+    margin-left: 65vw;
     
 }
     .site-footer {
@@ -103,3 +100,21 @@ p  {
           line-height: 16px;
           letter-spacing: 0.1px;
     }
+
+  
+#logosm{
+  height: 6vw;
+}
+.nav-link{
+  font-size: 4vh;
+  font-weight: bold;
+}
+.navbar-nav{
+  margin-left: 55vw;
+}
+.navbar{
+  background-color: #85CA7A;
+}
+.firstcont{
+  margin-top: 35vh;
+}
