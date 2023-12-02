@@ -1,3 +1,4 @@
+@import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
 body {
      min-height: 100vh;
      display: flex;
@@ -16,78 +17,113 @@ body {
      font-size: 25px;
      height: 20vh
      
-} 
-.logo{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: flex-start;
-      max-width: 200px;
-      flex-shrink: 0;
-      height: 5vw;
+}  
 
-    }
-h1{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 4.8rem;
-      margin-right: auto;
-    } 
-    b{
-    color: hsl(43, 98%, 49%);
-   }
-   .nav {
-     width: 100%;
-     background-color: #85CA7A;
-     overflow: auto;
-     display: flex;
-     flex-direction: row;
-     justify-content: end;
-     align-items: end;
-   }
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin-left: 15px;
-  transition: color 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color:#FFFF; /* Промени цвета според предпочитанията си */
-}
-
-   
- 
-p  {
-    display: flex;
-    width: 546px;
-    margin-left: 10%;
-    color: #000;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px; /* 113.636% */
-    letter-spacing: 0.11px;
- }
- h2 {
-   display: flex;
-   width: 546px;
-   margin-left: 25%;
- }
- 
  .pic1   {
-    height: 481px;
-    width: 481px;
+    height: 48vh;
+    width: 24vw;
     display: flex;
     position: relative;
     margin-left: 65vw;
+    bottom: 33vh;
     
 }
-    .site-footer {
+    
+
+  
+#logosm{
+  height: 6vw;
+}
+.nav-link{
+  font-size: 4vh;
+  font-weight: bold;
+}
+.navbar-nav{
+  margin-left: 60vw;
+}
+.navbar{
+  background-color: #85CA7A;
+  font-family: Inter;
+  font-weight: 700;
+}
+.firstcont{
+  margin-top: 7vh;
+}
+.heading1{
+  width: max-content;
+  margin-right: 25vw;
+  margin-left: 35%;
+  margin-bottom: 16vh;
+}
+.content{
+  margin-top: 15vh;
+  margin-right: 30vw;
+  margin-left: 15%;
+  height: 30vh;
+  width:30vw;
+  font-size: 3rem;
+  line-height: 4vh;
+  bottom: 3vh;
+  display: flex;
+  color: #000;
+  font-style:normal; 
+}
+.secondcont{
+  margin-top: 15vh;
+  padding-bottom: 9vh;
+}
+.pic2{
+  height: 48vh;
+  width: 24vw;
+  display: flex;
+  position: relative;
+  margin-left: 65vw;
+  bottom: 33vh;
+}
+.heading2{
+  width: max-content;
+  margin-right: 25vw;
+  margin-left: 30%;
+  margin-bottom: 16vh;
+}
+.content2{
+  margin-top: 28vh;
+  margin-right: 30vw;
+  margin-left: 15%;
+  height: 30vh;
+  width:30vw;
+  font-size: 3rem;
+  line-height: 4vh;
+  bottom: 3vh;
+  display: flex;
+  color: #000;
+}
+.OC{
+  width: max-content;
+  margin-left: 15%;
+  color: #333;
+}
+.rectangle{
+  height: 48vh;
+  width: 24vw;
+  display: flex;
+  position: relative;
+  margin-left: 65vw;
+  bottom: 81vh;
+  border-radius: 5.625em;
+  background-color: #929292E5;
+}
+.cs{
+  position: relative;
+  margin-left: 69vw;
+  bottom: 108vh;
+  font-size: 2.813em;
+  font-weight: 700;
+
+}
+.site-footer {
          background-color: #85CA7A;
+         height: 8vh;
          margin-top: auto;
          display: flex;
          justify-content: center;
@@ -100,21 +136,3 @@ p  {
           line-height: 16px;
           letter-spacing: 0.1px;
     }
-
-  
-#logosm{
-  height: 6vw;
-}
-.nav-link{
-  font-size: 4vh;
-  font-weight: bold;
-}
-.navbar-nav{
-  margin-left: 55vw;
-}
-.navbar{
-  background-color: #85CA7A;
-}
-.firstcont{
-  margin-top: 35vh;
-}
