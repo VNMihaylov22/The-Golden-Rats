@@ -30,6 +30,7 @@ body {
     width: 70vw;
     border-radius: 2rem;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
   button{
@@ -39,23 +40,42 @@ body {
     height: 5vh;
     border-radius: 1rem;
     margin-left: 35vw;
-    margin-bottom: 12vh;
+    margin-bottom: 5vh;
   }
   .product{
-    margin-top: 3vh;
-    width: 25vw;
+    margin-top:-30vh;
+    width: 28vw;
     height: 50vh;
   }
   .product-name{
-    margin-left: 2.3vw;
-    margin-top: 3vh;
+    margin-left: 35vw;
+    margin-top: 4vh;
     width: 25vw;
     height: 4vh;
   }
   .textbox{
     width: 24vw;
     height: 24vh;
-    margin-left: 24vw;
-    
+    margin-top: 10vh;
+    margin-left: 35vw;
+  }
+  .site-footer {
+    background-color: #85CA7A;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0066FF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+     font-weight: 700;
+     line-height: 16px;
+     letter-spacing: 0.1px;
+     bottom: 10vh;
+  }
+  .OC{
+    color: #000;
+    text-decoration: none;
   }
  
