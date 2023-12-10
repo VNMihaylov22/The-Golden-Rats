@@ -7,12 +7,6 @@
 <p align="center">This is our website about "Green Challenges ", where you will learn about our eco-friendly store </p>
  
    🗂️ Our Tech Stack
-Used code editor & collaborative service:
-
-  <p align="left">
-    <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/344/visual-studio-code-2019.png" alt="VS code logo" width=48px /></a>
-    <a href="https://github.com/"><img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub logo" width=52px /></a>
-    </p>
 
   Used code editor & collaborative service:
 
