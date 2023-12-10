@@ -35,28 +35,21 @@
               <a class="nav-link" href="../pages/login.html" tabindex="-1" aria-disabled="true">Log in</a>
             </li>
             <li class="nav-item">
-              <i class="fa fa-shopping-bag"></i><div class="cart">
-      <h2>Shopping Cart</h2>
-      <ul class="cart-items"data-bs-toggle="collapse" >
-          <li class="cart-item" >
-              <span class="item-name">Product 1</span>
-              <span class="item-price">$19.99</span>
-              <button class="remove-item">Remove</button>
-          </li>
-          <li class="cart-item">
-              <span class="item-name">Product 2</span>
-              <span class="item-price">$24.99</span>
-              <button class="remove-item">Remove</button>
-          </li>
-      </ul>
-      <div class="cart-total">
-          <span>Total: $44.98</span>
-          <button class="clear-cart">Clear Cart</button>
-      </div>
+              
+              <a class="nav-link" href="#"><div class="dropdown, fa-fa-shopping-bag">
+                <i class="fa-fa-shopping-bag"></i>
+              <button class="dropdown-btn" onclick="toggleDropdown()">Dropdown</button>
+              <div class="dropdown-content" id="myDropdown"> 
+                  <div id="cart">
+                      <h2>Shopping Cart</h2>
+                      <ul id="cart-items"></ul>
+                      <p>Total: $<span id="total">0.00</span></p>
+                      <button onclick="clearCart()">Clear Cart</button>
+                  </div>
+                </div>
+              </a>
             </li>
-          </ul>
-        </div>
-      </div>
+            
     </nav>
     
     <div class="container-fluid1">

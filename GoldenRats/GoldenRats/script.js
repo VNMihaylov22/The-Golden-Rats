@@ -1,4 +1,4 @@
-function toggleDropdown() {  
+function toggleDropdown() {     //TOVA VI E JAVATA ZA KOGATO SE NATISNE BUTTONA DA SE POKAJAT DROPDOWN MENUTATA
     var dropdownContent = document.getElementById("myDropdown");
     if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none";
