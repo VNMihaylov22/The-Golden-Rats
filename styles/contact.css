@@ -1,8 +1,6 @@
 @import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
 body {
      min-height: 100vh;
-     display: flex;
-     flex-direction: column;
      margin: 0;
      background-color: #F7EFCB;
      padding: 0;
@@ -19,218 +17,95 @@ body {
   background-color: #85CA7A;
   font-family: Inter;
   font-weight: 700;
+  margin-bottom: 10vh;
 }
 #logosm{
   height: 6vw;
 }
-.First-card {
-  width: 12.5vw;
-  height: 35vh;
-  background-color: white;
-  border-radius: 1.4em;
-  margin-top: 10vh;
+.card-img{
+  width:16vw;
+  height:34vh;
+  border-radius: 2em;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
 }
-/* Effects*/
-.front1,
-.back1 {
-  backface-visibility: hidden;
-  border-radius: 1.4em;
-}
-.front1 {
-  transform: rotateY(0deg);
-  transition: transform 0.5s;
-}
-.back1 {
-  transform: rotateY(-180deg);
-  transition: transform 0.2s;
-}
-.First-card:hover .front1 {
-  transform: rotateY(180deg);
-}
-.First-card:hover .back1 {
-  transform: rotateY(0deg);
-}
-.Viktor {
-  width: 10vw;
-  height: 24.7vh;
-  border-radius: 1.4em;
-  margin-left: 0.8vw;
-}
-.Name {
-  width: 10vw;
-  margin-left: 2.5vw;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
-  font-style: normal;
-  font-weight: 600;
-  color: black;
-  font-size: 20px;
-}
-.text-container {
-  transform: translate(-50%, -50%);
+h4{
   text-align: center;
-  font-size: 18px;
-  opacity: 0;
-  transition: opacity 0.2s;
-  color: black;
+  padding:5vh;
+  margin-bottom: 5vh;
+  margin-top: -5vh;
 }
-.First-card:hover .text-container {
-  opacity: 1;
-}
-.First-card:hover .Viktor {
-  opacity: 0;
-}
-.Second-card {
-  width: 12.5vw;
-  height: 35vh;
-  background-color: white;
-  border-radius: 1.4em;
-}
-.back2 {
-  
-  backface-visibility: hidden;
-  border-radius: 1.4em;
-}
-.front2 {
-  transform: rotateY(0deg);
-  transition: transform 0.5s;
-}
-.back2 {
-  transform: rotateY(-180deg);
-  transition: transform 0.2s;
-}
-.Second-card:hover .front2 {
-  transform: rotateY(180deg);
-}
-.Second-card:hover .back2 {
-  transform: rotateY(0deg);
-}
-.Mihail {
-  width: 10vw;
-  height: 24.7vh;
-  border-radius: 1.4em;
-  margin-left: 0.6vw;
-  margin-top: 0.8vh;
-}
-.Name2 {
-  width: 10vw;
+.card {
+  width: 18vw;
+  height: 54vh;
+  perspective: 1000px;
+  margin-bottom: 1vh;
   margin-left: 2vw;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
-  font-style: normal;
-  font-weight: 600;
-  color: black;
-  font-size: 20px;
+  border-radius: 2em;
 }
-.text-container2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 18px;
-  opacity: 0;
-  transition: opacity 0.2s;
-  color: black;
-}
-.Second-card:hover .text-container2 {
-  opacity: 1;
-}
-.Second-card:hover .Mihail {
-  opacity: 0;
-}
-.Third-card {
-  width: 12.5vw;
-  height: 35vh;
-  background-color: white;
-  border-radius: 1.4em;
 
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
-.back3 {
-  backface-visibility: hidden;
-  border-radius: 22px;
-}
-.front3 {
-  transform: rotateY(0deg);
-  transition: transform 0.5s;
-}
-.back3 {
-  transform: rotateY(-180deg);
-  transition: transform 0.2s;
-}
-.Third-card:hover .front3 {
+
+.card:hover .card-inner {
   transform: rotateY(180deg);
 }
-.Third-card:hover .back3 {
-  transform: rotateY(0deg);
-}
-.Velizar {
-  width: 10vw;
-  height: 24.7vh;
-  border-radius: 1.4em;
-  margin-left: 0.7vw;
-}
-.Name3 {
-  width: 10vw;
-  margin-left: 1.8vw;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
-  font-style: normal;
-  font-weight: 600;
-  color: black;
-  font-size: 20px;
-}
-.Third-card:hover .text-container3 {
-  opacity: 1;
-}
-.Third-card:hover .Velizar {
-  opacity: 0;
-}
-.Fourth-card {
-  width: 12.5vw;
-  height: 35vh;
-  background-color: white;
-  border-radius: 1.4em;
-}
-.Georgi {
-  height: 28vh;
-  width: 12vw;
-  margin-top: -0.5vh;
-}
-.Name4 {
-  width: 10vw;
-  margin-left: 1.8vw;
-  margin-top: 2vh;
-  font-style: normal;
-  font-weight: 600;
-  color: black;
-  font-size: 20px;
-}
-.front4,
-.back4 {
+
+.card-front,
+.card-back {
+  position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: 22px;
 }
-.front4 {
-  transform: rotateY(0deg);
-  transition: transform 0.5s;
-}
-.back4 {
-  transform: rotateY(-180deg);
-  transition: transform 0.2s;
-}
-.Fourth-card:hover .front4 {
-  transform: rotateY(180deg);
-}
-.Fourth-card:hover .back4 {
-  transform: rotateY(0deg);
-}
-.Fourth-card:hover .text-container4 {
-  opacity: 1;
-}
-.Fourth-card:hover .Georgi {
-  opacity: 0;
+.card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+.card-img {
+  width: 14vw;
+  height: 34vh;
+  height: auto;
+  border-radius: 2em;
+}
+.card-img2{
+  width: 14vw;
+  height: 30vh;
+  border-radius: 2em;
+}
+.site-footer {
+  background-color: #85CA7A;
+  height: 8vh;
+  margin-top: 11.7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0066FF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+   font-weight: 700;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
