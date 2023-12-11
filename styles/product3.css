@@ -1,0 +1,80 @@
+@import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
+body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     background-color: #F7EFCB;
+     padding: 0;
+     overflow-x: hidden;
+    }
+#logosm{
+    height: 6vw;
+  }
+  .nav-link{
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .navbar-nav{
+    margin-left: 60vw;
+  }
+  .navbar{
+    background-color: #85CA7A;
+    font-family: Inter;
+    font-weight: 700;
+  }
+  
+  .product-card {
+    background-color: #FFFF;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 2rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+  button{
+    color: #000;
+    background-color: #85CA7A;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1rem;
+    margin-left: 35vw;
+    margin-bottom: 5vh;
+  }
+  .product{
+    margin-top:-30vh;
+    width: 15vw;
+    height: 50vh;
+  }
+  .product-name{
+    margin-left: 35vw;
+    margin-top: 4vh;
+    width: 25vw;
+    height: 4vh;
+  }
+  .textbox{
+    width: 24vw;
+    height: 24vh;
+    margin-top: 10vh;
+    margin-left: 35vw;
+  }
+  .site-footer {
+    background-color: #85CA7A;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0066FF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+     font-weight: 700;
+     line-height: 16px;
+     letter-spacing: 0.1px;
+     bottom: 10vh;
+  }
+  .OC{
+    color: #000;
+    text-decoration: none;
+  }

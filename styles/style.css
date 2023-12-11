@@ -1,78 +1,129 @@
-p  {
-    display: flex;
-    width: 546px;
-    padding-left: 20%
-    color: #000;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px; /* 113.636% */
-    letter-spacing: 0.11px;
- }
- h1 {
-   display: flex;
-   width: 546px;
-   margin-left: 20%;
- }
+@import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
+body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     background-color: #F7EFCB;
+     padding: 0;
+     overflow-x: hidden;
+    }
+.header {
+     padding: 15px;
+     background-color: #85CA7A;
+     max-width: 100%;
+     color: #000;
+     letter-spacing: 0.13px;
+     font-size: 25px;
+     height: 20vh
+     
+}  
+
  .pic1   {
-    height: 481px;
-    width: 481px;
+    height: 48vh;
+    width: 24vw;
     display: flex;
     position: relative;
-    left: 1350px;
-    bottom: 50px;
+    margin-left: 65vw;
+    bottom: 33vh;
     
 }
-     .navbar {
-     position:relative;
-      width: 100%;
-     background-color: #85CA7A;
-     overflow: auto;
-     
-   }
- 
+    
+
   
-   .navbar a {
-     float: left;
-     position: relative;
-     left: 1200px;
-     padding: 12px;
-     color: black;
-     text-decoration: none;
-     font-size: 34px;
- 
-   }
- 
- 
-   .navbar a:hover {
-     background-color: lightgreen;
-   }
- 
- 
-   @media screen and (max-width: 500px) {
-     .navbar a {
-       float: none;
-       display: block;
-     }
-   }
-   .header {
-     padding: 10px;
-     
-     width: 805px;
-     color: #000;
- 
- 
- 
-     font-family: Inter;
-     font-size: 26px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 16px;
-     letter-spacing: 0.13px;
-    }
-    .site-footer {
+#logosm{
+  height: 6vw;
+}
+.nav-link{
+  font-size: 4vh;
+  font-weight: bold;
+}
+.navbar-nav{
+  margin-left: 60vw;
+}
+.navbar{
+  background-color: #85CA7A;
+  font-family: Inter;
+  font-weight: 700;
+}
+.firstcont{
+  margin-top: 7vh;
+}
+.heading1{
+  width: max-content;
+  margin-right: 25vw;
+  margin-left: 35%;
+  margin-bottom: 16vh;
+}
+.content{
+  margin-top: 15vh;
+  margin-right: 30vw;
+  margin-left: 15%;
+  height: 30vh;
+  width:30vw;
+  font-size: 3rem;
+  line-height: 4vh;
+  bottom: 3vh;
+  display: flex;
+  color: #000;
+  font-style:normal; 
+}
+.secondcont{
+  margin-top: 15vh;
+  padding-bottom: 9vh;
+}
+.pic2{
+  height: 48vh;
+  width: 24vw;
+  display: flex;
+  position: relative;
+  margin-left: 65vw;
+  bottom: 33vh;
+}
+.heading2{
+  width: max-content;
+  margin-right: 25vw;
+  margin-left: 30%;
+  margin-bottom: 16vh;
+}
+.content2{
+  margin-top: 28vh;
+  margin-right: 30vw;
+  margin-left: 15%;
+  height: 30vh;
+  width:30vw;
+  font-size: 3rem;
+  line-height: 4vh;
+  bottom: 3vh;
+  display: flex;
+  color: #000;
+}
+.OC{
+  width: max-content;
+  margin-left: 15%;
+  color: #333;
+}
+.rectangle{
+  height: 48vh;
+  width: 24vw;
+  display: flex;
+  position: relative;
+  margin-left: 65vw;
+  bottom: 81vh;
+  border-radius: 5.625em;
+  background-color: #929292E5;
+}
+.cs{
+  position: relative;
+  margin-left: 69vw;
+  bottom: 108vh;
+  font-size: 2.813em;
+  font-weight: 700;
+
+}
+.site-footer {
          background-color: #85CA7A;
+         height: 8vh;
          margin-top: auto;
          display: flex;
          justify-content: center;
@@ -84,6 +135,7 @@ p  {
           font-weight: 700;
           line-height: 16px;
           letter-spacing: 0.1px;
+
     }
     html, body {
      min-height: 100vh;
@@ -120,4 +172,3 @@ p  {
       height: 300px;
       width: 300px;
      }
-    
