@@ -31,7 +31,7 @@ body {
   }
   .product-card {
     background-color: #FFFF;
-    height: 60vh;
+    height: 53vh;
     width: 15vw;
     border-radius: 2rem;
 }
@@ -114,7 +114,7 @@ body {
     margin-top: 4vh;
     margin-left: 4vw;
   }
-  .product-name3{
+  .product-name{
     margin-left: 1.3vw;
     margin-top: 1vh;
     width: 10vw;
