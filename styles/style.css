@@ -59,10 +59,10 @@ body {
   margin-top: 15vh;
   margin-right: 30vw;
   margin-left: 15%;
-  height: 30vh;
+  height: 37vh;
   width:30vw;
   font-size: 3rem;
-  line-height: 4vh;
+  line-height: 6vh;
   bottom: 3vh;
   display: flex;
   color: #000;
@@ -90,10 +90,10 @@ body {
   margin-top: 28vh;
   margin-right: 30vw;
   margin-left: 15%;
-  height: 30vh;
+  height: 37vh;
   width:30vw;
   font-size: 3rem;
-  line-height: 4vh;
+  line-height: 6vh;
   bottom: 3vh;
   display: flex;
   color: #000;
@@ -135,4 +135,40 @@ body {
           font-weight: 700;
           line-height: 16px;
           letter-spacing: 0.1px;
+
     }
+    html, body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     background-color: #F7EFCB;
+     padding: 0;
+    }
+    .image{
+     width: 481px;
+     height: 481px;
+ 
+    }
+    .image2 {
+         width: 481px;
+         height: 481px;
+ 
+    }
+    .Golden{
+      color: #F9B203;
+      position: relative;
+      font-size: 35px;
+      right: 110px;
+    }
+    .The-Rats{
+      position:relative;
+      bottom: 175px;
+      right: 50px;
+      font-size: 35px;
+     }
+     .logo{
+      position:relative;
+      height: 300px;
+      width: 300px;
+     }

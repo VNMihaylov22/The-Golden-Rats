@@ -25,7 +25,7 @@ Used tools for our documentation, presentation & communication:
  
  ## 🧒 Our Team
  
-<a href = "https://github.com/VNMihaylov22">Velizar Nikolaev </a> (Scrum trainer)<br>
-<a href = "https://github.com/GNSubashev22">Georgi Nikolaev</a> (Designer)<br>
+<a href = "https://github.com/VNMihaylov22">Velizar Mihaylov </a> (Scrum trainer)<br>
+<a href = "https://github.com/GNSubashev22">Georgi Subashev</a> (Designer)<br>
 <a href = "https://github.com/VBKanev22">Viktor Kanev</a> (Front-end Developer)<br>
 <a href = "https://github.com/MANikolov22">Mihail Nikolov</a> (Front-end Developer)<br>

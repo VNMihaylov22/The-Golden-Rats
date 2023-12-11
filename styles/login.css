@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -276,7 +277,7 @@ body {
      letter-spacing: 0.1px;
      bottom: 10vh;
      margin-top: 83vh;
-     margin-left: -50vw;
+     backdrop-filter: blur(10px);
   }
   a{
     color: #000;

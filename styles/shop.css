@@ -31,8 +31,13 @@ body {
   }
   .product-card{
     background-color: #FFFF;
+<<<<<<< HEAD
     height: 55vh;
     width: 300px;
+=======
+    height: 53vh;
+    width: 15vw;
+>>>>>>> 6eff7ef063fdcdfb802a4f5a5645c393f7b6969b
     border-radius: 2rem;
     margin-left: 75px;
     margin-top: 10vh;
@@ -48,10 +53,18 @@ body {
     margin-top: 4vh;
     margin-left: 75px;
   }
+<<<<<<< HEAD
   .product{
     margin-top: 3vh;
     width: 300px;
     height: 36vh;
+=======
+  .product-name{
+    margin-left: 1.3vw;
+    margin-top: 1vh;
+    width: 10vw;
+    height: 4vh;
+>>>>>>> 6eff7ef063fdcdfb802a4f5a5645c393f7b6969b
   }
 .site-footer {
   background-color: #85CA7A;
