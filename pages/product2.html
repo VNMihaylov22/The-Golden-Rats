@@ -35,7 +35,16 @@
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Log in</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/cart.html" tabindex="-1" aria-disabled="true"><i class="fa fa-shopping-bag"></i></a>
+              <div class="dropdown">
+                <button class="dropdown-btn" type="menu" onclick="toggleDropdown()"><img src="../images/shopping-cart.png" alt="shopping cart" id="cart-icon"></button>
+                <div class="dropdown-content" id="myDropdown"> 
+                   <div id="cart">
+                        <ul id="cart-items"></ul>
+                        <p>Total: $<span id="total">0.00</span></p>
+                        <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
+                    </div>
+                  </div>
+                </div>
             </li>
           </ul>
         </div>
@@ -50,7 +59,6 @@
                 With its aesthetic appeal and functionality, "MetalEco Revival" not only exudes resilience and harmony with nature but also stands as a symbol of efforts towards environmental conservation. Crafted from transformed materials, this product conveys a message about the possibilities of reusing resources and its role in fostering an environmentally conscious way of life.
               </div>
             <img src="../images/image 4.png" alt="product" class="product">
-            <button onclick="addToCart(12.00)">BUY  /  $17.99</button>
         
         </div>
         </div>
@@ -58,7 +66,7 @@
     <footer class="site-footer">
       <a href="./pages/contacts.html"><p class="OC">Our Contacts</p></a>
     </footer>
-    <script href="../scripts/script.js">
+    <script src="../Js/script.js">
     </script>
     </body>
     </html>

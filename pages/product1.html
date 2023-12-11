@@ -35,7 +35,16 @@
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Log in</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/cart.html" tabindex="-1" aria-disabled="true"><i class="fa fa-shopping-bag"></i></a>
+              <div class="dropdown">
+                <button class="dropdown-btn" type="menu" onclick="toggleDropdown()"><img src="../images/shopping-cart.png" alt="shopping cart" id="cart-icon"></button>
+                <div class="dropdown-content" id="myDropdown"> 
+                   <div id="cart">
+                        <ul id="cart-items"></ul>
+                        <p>Total: $<span id="total">0.00</span></p>
+                        <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
+                    </div>
+                  </div>
+                </div>
             </li>
           </ul>
         </div>
@@ -51,7 +60,6 @@
               "PureEarth Glass" not only represents the purity of the glass surface but also becomes a symbol of commitment to ecological values and the balanced future of our world.
               </div>
             <img src="../images/image 3.png" alt="product" class="product">
-            <button onclick="addToCart(12.00)">BUY  /  $12.00</button>
         
         </div>
         </div>
@@ -59,6 +67,6 @@
     <footer class="site-footer">
       <a href="./pages/contacts.html"><p class="OC">Our Contacts</p></a>
     </footer>
-    <script href="../scripts/script.js"></script>
+    <script src="../Js/script.js"></script>
     </body>
     </html>
