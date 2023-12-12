@@ -25,12 +25,13 @@ Used tools for our documentation, presentation & communication:
  
  Used technologies for our project development:
 <p>
-    <img src="https://banner2.cleanpng.com/20180730/ghy/kisspng-logo-cascading-style-sheets-html5-css3-prags-h-python-stickers-5b5ed2621e52c3.0848753715329408981242.jpg" width=48px />
+    <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=48px /></a>
+    <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"></a>
 </p>
 
- Used tools for our overall design:
+ Used tools design:
  <p>
-     <a href="https://www.figma.com/" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" width=48px /></a>
+     <a href="https://www.figma.com/" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" width=46px /></a>
  </p>
  ## 🧒 Our Team
  
