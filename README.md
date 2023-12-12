@@ -23,6 +23,16 @@ Used tools for our documentation, presentation & communication:
  <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt = "MS Teams logo" width=46px /></a>
  </p>
  
+ Used technologies for our project development:
+<p>
+    <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=53px /></a>
+    <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width=45px /></a>
+</p>
+
+ Used tools design:
+ <p>
+     <a href="https://www.figma.com/" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" width=42px /></a>
+ </p>
  ## 🧒 Our Team
  
 <a href = "https://github.com/VNMihaylov22">Velizar Mihaylov </a> (Scrum trainer)<br>
