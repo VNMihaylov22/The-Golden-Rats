@@ -1,10 +1,12 @@
+/* Global reset and defaults */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
+
+/* Header styles */
 header {
     position: fixed;
     top: 0;
@@ -15,10 +17,9 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    backdrop-filter: blur(10px);
 }
 
-
+/* Navigation link styles */
 .navigation a {
     position: relative;
     font-size: 1.5em;
@@ -28,6 +29,7 @@ header {
     margin-left: 40px;
 }
 
+/* Underline effect on navigation link hover */
 .navigation a::after {
     content: '';
     position: absolute;
@@ -42,12 +44,13 @@ header {
     transition: transform .5s;
 }
 
+/* Display underline effect on hover */
 .navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
 
-
+/* Login button styles */
 .navigation .btnLogin-popup {
     width: 130px;
     height: 50px;
@@ -60,40 +63,50 @@ header {
     color: #fff;
     font-weight: 500;
     margin-left: 40px;
-
 }
 
+/* Login button hover effect */
 .navigation .btnLogin-popup:hover {
     background: #fff;
     color: #162938;
 }
+
+/* Body styles */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images/loginimg.jpg') no-repeat;
+    background: url('../images/background-loginpage.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#logosm{
+/* Logo size and positioning */
+#logosm {
     height: 6vw;
     margin-left: -2vw;
-  }
-  .nav-link{
+}
+
+/* Navigation link font size and weight */
+.nav-link {
     font-size: 4vh;
     font-weight: bold;
-  }
-  .navbar-nav{
-    margin-left: 60vw;
+}
 
-  }
-  .navbar{
+/* Navbar alignment */
+.navbar-nav {
+    margin-left: 60vw;
+}
+
+/* Navbar styles */
+.navbar {
     background-color: #85CA7A;
     font-family: Inter;
     font-weight: 700;
-  }
+}
+
+/* Wrapper styles */
 .wrapper {
     position: relative;
     width: 400px;
@@ -111,6 +124,7 @@ body {
     transition: transform .5s ease, height .2s ease;
 }
 
+/* Active popup wrapper */
 .wrapper.active-popup {
     transform: scale(1);
 }
@@ -118,32 +132,39 @@ body {
 .wrapper.active {
     height: 520px;
 }
+
+/* Form box styles */
 .wrapper .form-box {
     width: 100%;
     padding: 40px;
 }
 
+/* Login form box transition */
 .wrapper .form-box.login {
     transition: transform .18s ease;
     transform: translateX(0);
 }
+
+/* Active state for login form */
 .wrapper.active .form-box.login {
     transition: none;
     transform: translateX(-400px);
-
 }
 
+/* Registration form position */
 .wrapper .form-box.register {
     position: absolute;
     transition: none;
     transform: translateX(400px);
 }
 
+/* Active state for registration form */
 .wrapper.active .form-box.register {
     transition: transform .18s ease;
     transform: translateX(0);   
 }
 
+/* Close icon styles */
 .wrapper .icon-close {
     position: absolute;
     top: 0;
@@ -161,11 +182,14 @@ body {
     z-index: 1;
 }
 
+/* Heading styles within form boxes */
 .form-box h2 {
     font-size: 2em;
     color: #162938;
     text-align: center;
 }
+
+/* Input box styles */
 .input-box {
     position: relative;
     width: 100%;
@@ -173,6 +197,8 @@ body {
     border-bottom: 2px solid #162938;
     margin: 30px 0;
 }
+
+/* Label styles for inputs */
 .input-box label {
     position: absolute;
     top: 50%;
@@ -184,12 +210,14 @@ body {
     pointer-events: none;
     transition: .5s;
 }
+
+/* Label positioning on focus or input */
 .input-box input:focus~label,
-.input-box input:valid~label{
+.input-box input:valid~label {
     top: -5px;
 }
 
-
+/* Input field styles */
 .input-box input {
     width: 100%;
     height: 100%;
@@ -202,6 +230,7 @@ body {
     padding: 0 35px 0 5px;
 }
 
+/* Icon styles for inputs */
 .input-box .icon {
     position: absolute;
     right: 8px;
@@ -210,6 +239,7 @@ body {
     line-height: 57px;
 }
 
+/* Remember me and forgot password styles */
 .remember-forgot {
     font-size: .9em;
     color:#162938;
@@ -219,20 +249,24 @@ body {
     justify-content: space-between;
 }
 
+/* Checkbox styles within remember-forgot */
 .remember-forgot label input {
     accent-color: #162938;
     margin-right: 3px;
 }
 
+/* Forgot password link styles */
 .remember-forgot a {
     color: #162938;
     text-decoration: none;
 }
 
+/* Forgot password link hover styles */
 .remember-forgot a:hover {
     text-decoration: underline;
 }
 
+/* Button styles */
 .btn {
     width: 100%;
     height: 45px;
@@ -246,6 +280,7 @@ body {
     font-weight: 500;
 }
 
+/* Login/register link styles */
 .login-register {
     font-size: .9em;
     color: #162938;
@@ -254,15 +289,19 @@ body {
     margin: 25px 0 10px;
 }
 
+/* Login/register link text styles */
 .login-register p a {
     color: #162938;
     text-decoration: none;
     font-weight: 600;
 }
 
+/* Login/register link hover styles */
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+/* Footer styles */
 .site-footer {
     height: 8vh;
     display: flex;
@@ -272,14 +311,17 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-     font-weight: 700;
-     line-height: 16px;
-     letter-spacing: 0.1px;
-     bottom: 10vh;
-     margin-top: 83vh;
-     backdrop-filter: blur(10px);
-  }
-  a{
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    bottom: 10vh;
+    margin-top: 83vh;
+    backdrop-filter: blur(10px);
+    border-radius: 6rem;
+}
+
+/* Anchor link styles */
+a {
     color: #000;
     text-decoration: none;
-  }
+}

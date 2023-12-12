@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- Meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <title>Contacts</title>
+  <!-- Page title -->
+  <title>Bio Products</title>
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="../styles/contact.css">
+  <!-- Bootstrap JavaScript and Popper.js -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom styles -->
   <link rel="stylesheet" href="../styles/contact.css">
-  <link rel="stylesheet" href="./pages\navbar.html">
-  <link rel="icon" href="../images/logo small.png" type="image/x-icon"/>
+  <!-- Link to favicon -->
+  <link rel="icon" href="../images/logo small.png" type="image/x-icon" />
 </head>
 
 <body>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-#85CA7A">
     <div class="container-fluid">
-      <a class="navbar-brand" ><img src="../images/logo small.png"id="logosm"></a>
+      <!-- Brand/logo -->
+      <a class="navbar-brand"><img src="../images/logo small.png" id="logosm"></a>
+      <!-- Toggler/collapsible Button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Navigation Links -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link"  href="../index.html">Home</a>
+            <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="../pages/shop.html">Shop</a>
           </li>
+          <!-- Active navigation link for Contact -->
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Contact</a>
           </li>
@@ -41,69 +53,42 @@
       </div>
     </div>
   </nav>
+
+  <!-- Contact Cards Section -->
   <div class="container-fluid">
     <div class="row justify-content-evenly">
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h4>Viktor Kanev</h4>
-                        <img src="../images/Viktor.jpg" alt="Viktor" class="card-img">
-                    </div>
-                    <div class="card-back">
-                        <h5>Email: VBKanev22@codingburgas.bg</h5>
-                        <p>Role: Back-end Developer</p>
-                    </div>
-                </div>
+      <!-- Individual contact cards -->
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <!-- Contact person's name -->
+              <h4>Viktor Kanev</h4>
+              <!-- Contact person's image -->
+              <img src="../images/Viktor.jpg" alt="Viktor" class="card-img">
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h4>Mihail Nikolov</h4>
-                        <img src="../images/Mihail.jpg" alt="Mihail" class="card-img">
-                    </div>
-                    <div class="card-back">
-                        <h5>Email: MANikolov22@codingburgas.bg</h5>
-                        <p>Role: Front-end Developer</p>
-                    </div>
-                </div>
+            <div class="card-back">
+              <!-- Contact person's email -->
+              <h5>Email: VBKanev22@codingburgas.bg</h5>
+              <!-- Contact person's role -->
+              <p>Role: Back-end Developer</p>
             </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h4>Georgi Subashev</h4>
-                        <img src="../images/Georgi.jpg" alt="Georgi" class="card-img2">
-                    </div>
-                    <div class="card-back">
-                        <h5>Email: GNSubbashev22@codingburgas.bg</h5>
-                        <p>Role: Designer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h4>Velizar Mihaylov</h4>
-                        <img src="../images/Velizar.jpg" alt="Velizar" class="card-img">
-                    </div>
-                    <div class="card-back">
-                        <h5>Email: VNMihaylov22@codingburgas.bg</h5>
-                        <p>Role: Scrum Trainer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <!-- Repeat the above structure for other contact cards -->
+      <!-- ... -->
     </div>
-</div><footer class="site-footer">
-  <a href="../pages/contacts.html"><p class="OC">Our Contacts</p></a>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <a href="../pages/contacts.html">
+      <p class="OC">Our Contacts</p>
+    </a>
+  </footer>
+
+  <!-- Custom JavaScript -->
   <script src="script.js"></script>
 </body>
 

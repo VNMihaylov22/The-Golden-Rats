@@ -1,138 +1,155 @@
+/* Importing the Inter font */
 @import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
+
+/* Styling for the entire webpage */
 body {
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     margin: 0;
-     background-color: #F7EFCB;
-     padding: 0;
-     overflow-x: hidden;
-    }
-#logosm{
-    height: 6vw;
-  }
-  .nav-link{
-    font-size: 4vh;
-    font-weight: bold;
-  }
-  .navbar-nav{
-    margin-left: 60vw;
-  }
-  .navbar{
-    background-color: #85CA7A;
-    font-family: Inter;
-    font-weight: 700;
-  }
-  
-  .product-card {
-    background-color: #FFFF;
-    height: 70vh;
-    width: 70vw;
-    border-radius: 2rem;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #F7EFCB;
+  padding: 0;
+  overflow-x: hidden;
 }
-  .product{
-    margin-top:-45vh;
-    margin-left: 5vw;
-    width: 15vw;
-    height: 50vh;
-  }
-  .product-name{
-    margin-left: 35vw;
-    margin-top: 12vh;
-    width: 25vw;
-    height: 4vh;
-  }
-  .textbox{
-    width: 24vw;
-    height: 24vh;
-    margin-top: 15vh;
-    margin-left: 35vw;
-  }
-  .site-footer {
-    background-color: #85CA7A;
-    height: 8vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #0066FF;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-     font-weight: 700;
-     line-height: 16px;
-     letter-spacing: 0.1px;
-     bottom: 10vh;
-  }
-  .OC{
-    color: #000;
-    text-decoration: none;
-  }
-  .dropdown{
-    background-color: #85CA7A;
-  }
-  .dropdown-btn {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #85CA7A;
-  }
-  
-  .dropdown-content {
-    display: none;
-    background-color: #85CA7A;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-    margin-top: 10vh;
-    border-radius: 1rem;
-  }
-  
-  .dropdown-content a {
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-    color: #333;
-    background-color: #85CA7A;
-    
-  }
-  
-  
-  #products {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    
-  }
-  
-  .product {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  #cart {
-    margin: 20px;
-    
-  }
-  
-  #cart-items {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #total {
-    font-weight: bold;
-  }
-  #cart-icon{
-    margin-top: 0.7vh;
-    width:75px;
-    height: 5vh;
-  }
-  .clear-btn{
-    margin-bottom: 5px;
-    border-radius: 2rem;
-    background-color: goldenrod;
-  }
+
+/* Styling for the logo */
+#logosm {
+  height: 6vw;
+}
+
+/* Styling for navigation links */
+.nav-link {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+/* Styling for the navigation bar */
+.navbar-nav {
+  margin-left: 60vw;
+}
+
+.navbar {
+  background-color: #85CA7A;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+/* Styling for product cards */
+.product-card {
+  background-color: #FFFF;
+  height: 70vh;
+  width: 70vw;
+  border-radius: 2rem;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+/* Styling for product images */
+.product {
+  margin-top: -45vh;
+  margin-left: 5vw;
+  width: 15vw;
+  height: 50vh;
+}
+
+/* Styling for product names */
+.product-name {
+  margin-left: 35vw;
+  margin-top: 12vh;
+  width: 25vw;
+  height: 4vh;
+}
+
+/* Styling for the product description text */
+.textbox {
+  width: 24vw;
+  height: 24vh;
+  margin-top: 15vh;
+  margin-left: 35vw;
+}
+
+/* Styling for the site footer */
+.site-footer {
+  background-color: #85CA7A;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0066FF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  bottom: 10vh;
+}
+
+/* Styling for dropdown menus */
+.dropdown {
+  background-color: #85CA7A;
+}
+
+.dropdown-btn {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #85CA7A;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #85CA7A;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10vh;
+  border-radius: 1rem;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  background-color: #85CA7A;
+}
+
+/* Other miscellaneous styles for cart and total */
+#products {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+#cart {
+  margin: 20px;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#total {
+  font-weight: bold;
+}
+
+#cart-icon {
+  margin-top: 0.7vh;
+  width: 75px;
+  height: 5vh;
+}
+
+.clear-btn {
+  margin-bottom: 5px;
+  border-radius: 2rem;
+  background-color: goldenrod;
+}

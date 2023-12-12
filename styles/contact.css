@@ -1,117 +1,147 @@
+/* Importing font */
 @import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
+
+/* Body styles */
 body {
-     min-height: 100vh;
-     margin: 0;
-     background-color: #F7EFCB;
-     padding: 0;
-     overflow-x: hidden;
-    }
-.nav-link{
-  font-size: 4vh;
-  font-weight: bold;
-}
-.navbar-nav{
-  margin-left: 60vw;
-}
-.navbar{
-  background-color: #85CA7A;
-  font-family: Inter;
-  font-weight: 700;
-  margin-bottom: 10vh;
-}
-#logosm{
-  height: 6vw;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #F7EFCB;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.card-img{
-  width:16vw;
-  height:34vh;
-  border-radius: 2em;
-  margin-left: 1vw;
-  margin-bottom: 1vh;
+/* Navigation link styles */
+.nav-link {
+    font-size: 4vh;
+    font-weight: bold;
 }
-h4{
-  text-align: center;
-  padding:5vh;
-  margin-bottom: 5vh;
-  margin-top: -5vh;
+
+/* Navbar alignment */
+.navbar-nav {
+    margin-left: 60vw;
 }
+
+/* Navbar styles */
+.navbar {
+    background-color: #85CA7A;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 10vh;
+}
+
+/* Logo size */
+#logosm {
+    height: 6vw;
+}
+
+/* Card image styles */
+.card-img {
+    width: 16vw;
+    height: 34vh;
+    border-radius: 2em;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+}
+
+/* Heading styles */
+h4 {
+    text-align: center;
+    padding: 5vh;
+    margin-bottom: 5vh;
+    margin-top: -5vh;
+}
+
+/* Card styles */
 .card {
-  max-width: 345px;
-  height: 54vh;
-  perspective: 1000px;
-  margin-bottom: 1vh;
-  align-items: center;
-  border-radius: 2em;
+    max-width: 345px;
+    height: 54vh;
+    perspective: 1000px;
+    margin-bottom: 1vh;
+    align-items: center;
+    border-radius: 2em;
+    margin-left: 40px;
 }
 
+/* Card inner styles */
 .card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
 }
 
+/* Card hover effect */
 .card:hover .card-inner {
-  transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 
+/* Front and back face of the card */
 .card-front,
 .card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
+
+/* Front face styles */
 .card-front {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Back face styles */
 .card-back {
-  display: flex;
-  max-width: 40px;
-  margin-left: 140px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(-180deg);
+    display: flex;
+    max-width: 40px;
+    margin-left: 140px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(-180deg);
 }
 
+/* Image styles */
 .card-img {
-  max-width: 269px;
-  height: 24vh;
-  height:auto;
-  border-radius: 2em;
-  margin-left: -5px;
+    max-width: 269px;
+    height: 24vh;
+    height: auto;
+    border-radius: 2em;
+    margin-left: -5px;
 }
-.card-img2{
-  width: 14vw;
-  height: 30vh;
-  border-radius: 2em;
-  margin-bottom: 5vh;
+
+/* Second card image styles */
+.card-img2 {
+    width: 14vw;
+    height: 30vh;
+    border-radius: 2em;
+    margin-bottom: 5vh;
 }
+
+/* Footer styles */
 .site-footer {
-  background-color: #85CA7A;
-  height: 8vh;
-  margin-top: 11.7vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #0066FF;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-   font-weight: 700;
-   line-height: 16px;
-   letter-spacing: 0.1px;
+    background-color: #85CA7A;
+    height: 8vh;
+    margin-top: 11.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0066FF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1px;
 }
-a{
-  text-decoration: none;
-  color: #000;
+
+/* Anchor link styles */
+a {
+    text-decoration: none;
+    color: #000;
 }

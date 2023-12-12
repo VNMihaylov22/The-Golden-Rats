@@ -1,58 +1,78 @@
+/* Importing the font */
 @import url('https://rsms.me/inter/font-files/Inter-Regular.woff2');
+
+/* Basic page settings */
 body {
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     margin: 0;
-     background-color: #F7EFCB;
-     padding: 0;
-     overflow-x: hidden;
-    }
-#logosm{
-    height: 6vw;
-  }
-  .nav-link{
-    font-size: 4vh;
-    font-weight: bold;
-  }
-  .navbar-nav{
-    margin-left: 55vw;
-  }
-  .navbar{
-    background-color: #85CA7A;
-    font-family: Inter;
-    font-weight: 700;
-  }
-  .first-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: nowrap; 
-  }
-  .product-card{
-    background-color: #FFFF;
-    height: 55vh;
-    width: 300px;
-    border-radius: 2rem;
-    margin-left: 75px;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #F7EFCB;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-  .button{
-    color: #000;
-    background-color: #85CA7A;
-    width: 150px;
-    height: 5vh;
-    border-radius: 1rem;
-    margin-top: 4vh;
-    margin-left: 75px;
-  }
-  .product{
-    margin-top: 3vh;
-    width: 300px;
-    height: 36vh;
-  }
+/* Styles for the logo */
+#logosm {
+  height: 6vw;
+}
+
+/* Styles for navigation links */
+.nav-link {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+/* Styles for the navigation menu */
+.navbar-nav {
+  margin-left: 60vw;
+  width: 700px;
+}
+
+.navbar {
+  background-color: #85CA7A;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+/* Styles for the first container of products */
+.first-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+/* Styles for product cards */
+.product-card {
+  background-color: #FFFF;
+  height: 55vh;
+  width: 300px;
+  border-radius: 2rem;
+  margin-left: 75px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+/* Styles for product buttons */
+.button {
+  color: #000;
+  background-color: #85CA7A;
+  width: 150px;
+  height: 5vh;
+  border-radius: 1rem;
+  margin-top: 4vh;
+  margin-left: 75px;
+}
+
+/* Styles for product images */
+.product {
+  margin-top: 3vh;
+  width: 300px;
+  height: 36vh;
+}
+
+/* Styles for the page footer */
 .site-footer {
   background-color: #85CA7A;
   height: 8vh;
@@ -63,14 +83,17 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
-   font-weight: 700;
-   line-height: 16px;
-   letter-spacing: 0.1px;
-   bottom: 10vh;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  bottom: 10vh;
 }
-.dropdown{
+
+/* Styles for the dropdown */
+.dropdown {
   background-color: #85CA7A;
 }
+
 .dropdown-btn {
   padding: 10px;
   font-size: 16px;
@@ -83,7 +106,7 @@ body {
   display: none;
   background-color: #85CA7A;
   min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 10vh;
   border-radius: 1rem;
@@ -95,15 +118,13 @@ body {
   text-decoration: none;
   color: #333;
   background-color: #85CA7A;
-  
 }
 
-
+/* Styles for products */
 #products {
   display: flex;
   justify-content: space-around;
   margin: 20px;
-  
 }
 
 .product {
@@ -112,9 +133,9 @@ body {
   text-align: center;
 }
 
+/* Styles for the cart */
 #cart {
   margin: 20px;
-  
 }
 
 #cart-items {
@@ -125,13 +146,18 @@ body {
 #total {
   font-weight: bold;
 }
-#cart-icon{
+
+/* Styles for the cart icon */
+#cart-icon {
   margin-top: 0.7vh;
-  width:75px;
+  width: 75px;
   height: 5vh;
 }
-.clear-btn{
+
+/* Styles for the clear cart button */
+.clear-btn {
   margin-bottom: 5px;
   border-radius: 2rem;
   background-color: goldenrod;
 }
+

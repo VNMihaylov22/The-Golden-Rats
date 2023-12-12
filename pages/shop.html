@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- External Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- External CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="../styles/shop.css">
   <link rel="stylesheet" href="./pages\navbar.html">
+  <!-- Favicon -->
   <link rel="icon" href="../images/logo small.png" type="image/x-icon"/>
   <title>Bio Products</title>
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-#85CA7A">
+    <!-- Navbar content -->
     <div class="container-fluid">
       <a class="navbar-brand" ><img src="../images/logo small.png"id="logosm"></a>
+      <!-- Toggler for responsive navbar -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
+          <!-- Navigation links -->
           <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Shop</a></li>
           <li class="nav-item"><a class="nav-link" href="../pages/contacts.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="../pages/login.html" tabindex="-1" aria-disabled="true">Log in</a></li>
           <li class="nav-item">
+            <!-- Dropdown for cart -->
             <div class="dropdown">
               <button class="dropdown-btn" type="menu" onclick="toggleDropdown()"><img src="../images/shopping-cart.png" alt="shopping cart" id="cart-icon"></button>
+              <!-- Dropdown content -->
               <div class="dropdown-content" id="myDropdown"> 
                  <div id="cart">
-                      <ul id="cart-items"></ul>
-                      <p>Total: $<span id="total">0.00</span></p>
-                      <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
+                  <!-- Cart items list -->    
+                  <ul id="cart-items"></ul>
+                  <!-- Total price -->    
+                  <p>Total: $<span id="total">0.00</span></p>
+                  <!-- Clear cart button -->    
+                  <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
                   </div>
                 </div>
               </div>
           </li>
         </ul>
     </nav>
-  <div class="container-fluid1">
+   <!-- Products Section -->
+    <div class="container-fluid1">
     <div class="row justify-content-evenly">
     <div class="col-md-3"> 
       <div class="product-card" data-name="PureEarth Glass" data-price="12.00"><a href="../pages/product1.html">
@@ -62,6 +78,7 @@
         </div>
 </div>
 </div>
+ <!-- Products Section -->
 <div class="container-fluid2">    
 <div class="row justify-content-evenly">
   <div class="col-md-3">
@@ -84,43 +101,53 @@
   </div>
   </div>
   </div>
- <div class="container-fluid3">
+  <!-- Products Section -->
+  <div class="container-fluid3">
   <div class="row justify-content-evenly">
     <div class="col-md-3">
-  <div class="product-card" data-name="EcoSatch ReVived Wallet" data-price="27.00"><a href="../pages/product7.html">
+  <!-- Individual product cards -->
+      <div class="product-card" data-name="EcoSatch ReVived Wallet" data-price="27.00"><a href="../pages/product7.html">
         <img src="../images/image 9.png" alt="product7" class="product"></a>
         <button class="button" onclick="addToCart(this)">BUY  /  $27.00</button>
     </div>
   </div>
   <div class="col-md-3">
+    <!-- Individual product cards -->
     <div class="product-card" data-name="GreenRevive EcoFrame" data-price="19.99"><a href="../pages/product8.html">
         <img src="../images/image 10.png" alt="product8" class="product"></a>
         <button class="button" onclick="addToCart(this)">BUY  /  $19.99</button>
     </div>
   </div>
     <div class="col-md-3">
-    <div class="product-card" data-name="EcoSip RenewCup" data-price="11.99"><a href="../pages/product9.html">
+    
+    <!-- Individual product cards -->
+      <div class="product-card" data-name="EcoSip RenewCup" data-price="11.99"><a href="../pages/product9.html">
         <img src="../images/image 11.png" alt="product9" class="product"></a>
         <button class="button" onclick="addToCart(this)">BUY  /  $11.99</button>
 </div>
 </div>
 </div>
 </div>
+ <!-- Products Section -->
 <div class="container-fluid4">
   <div class="row justify-content-evenly">
     <div class="col-md-3">
-    <div class="product-card" data-name="EcoGlow Renewed Lantern" data-price="16.00"><a href="../pages/product10.html">
+    <!-- Individual product cards -->
+      <div class="product-card" data-name="EcoGlow Renewed Lantern" data-price="16.00"><a href="../pages/product10.html">
         <img src="../images/image 12.png" alt="product10" class="product"></a>
         <button class="button" onclick="addToCart(this)">BUY  /  $16.00</button>
     </div>
   </div>
   <div class="col-md-3">
+    
+    <!-- Individual product cards -->
     <div class="product-card" data-name="RenewalChess EcoBoard" data-price="40.00"><a href="../pages/product11.html">
         <img src="../images/image 13.png" alt="product11" class="product"></a>
         <button class="button" onclick="addToCart(this)">BUY  /  $40.00</button>
     </div>
   </div>
   <div class="col-md-3">
+    <!-- Individual product cards -->
     <div class="product-card" data-name="ReCycledTrek Sustainable Pack" data-price="32.00"><a href="../pages/product12.html">
         <img src="../images/image 14.png" alt="product12" class="product"></a>
         <button class="button" onclick="addToCart(this)">BUY  /  $32.00</button>
@@ -128,9 +155,11 @@
   </div>
   </div>
   </div>
+   <!-- Footer -->
   <footer class="site-footer">
     <a href=".,/pages/contacts.html"><p class="OC">Our Contacts</p></a>
   </footer>
+  <!-- Custom Script -->
   <script src="../Js/script.js"></script>
 </body>
 </html>
