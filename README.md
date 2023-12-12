@@ -25,7 +25,7 @@ Used tools for our documentation, presentation & communication:
  
  Used technologies for our project development:
 <p>
-    <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=48px /></a>
+    <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=50px /></a>
     <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width=48px /></a>
 </p>
 
