@@ -25,12 +25,12 @@ Used tools for our documentation, presentation & communication:
  
  Used technologies for our project development:
 <p>
-    <a href="https://banner2.cleanpng.com/20180730/ghy/kisspng-logo-cascading-style-sheets-html5-css3-prags-h-python-stickers-5b5ed2621e52c3.0848753715329408981242.jpg" /></a>
+    <img src="https://www.clipartmax.com/png/middle/259-2591611_documentaci%C3%B3n-https-developer-mozilla-html-css-js-png.png" />
 </p>
 
  Used tools for our overall design:
  <p>
-     <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" /></a>
+     <a href="https://www.figma.com/" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" /></a>
  </p>
  ## 🧒 Our Team
  
