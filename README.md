@@ -25,13 +25,13 @@ Used tools for our documentation, presentation & communication:
  
  Used technologies for our project development:
 <p>
-    <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=50px /></a>
+    <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=52px /></a>
     <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width=46px /></a>
 </p>
 
  Used tools design:
  <p>
-     <a href="https://www.figma.com/" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" width=46px /></a>
+     <a href="https://www.figma.com/" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" width=44px /></a>
  </p>
  ## 🧒 Our Team
  
